@@ -11,7 +11,7 @@ class Wine(models.Model):
 	description = models.CharField(max_length=500)
 	designation = models.CharField(max_length=50)
 	points = models.CharField(max_length=10)
-	price = models.IntegerField(max_length=10)
+	price = models.IntegerField()
 	province = models.CharField(max_length=50)
 	region_1 = models.CharField(max_length=50)
 	region_2 = models.CharField(max_length=50)
